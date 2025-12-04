@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YumFood | Tasty Meals</title>
+    <link rel="stylesheet" href="style101.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">YumFood<span>.</span></a>
+
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#categories" class="nav-link">Categories</a></li>
+                    <li><a href="#restaurants" class="nav-link">Restaurants</a></li>
+                    <li><a href="#offers" class="nav-link">Offers</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-buttons">
+                <a href="#" class="button button-outline">Login</a>
+                <a href="#" class="button button-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <h1>Hungry? <br> We got you covered.</h1>
+                    <p>Order from your favorite restaurants and get your meal delivered fast. Simple, fresh, and delicious.</p>
+                    <a href="#restaurants" class="button button-primary">Order Now</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1000&auto=format&fit=crop"
+                        alt="Delicious Food Spread">
+                </div>
+            </div>
+        </section>
+
+        <section class="search-section">
+            <div class="container">
+                <form class="search-bar">
+                    <div class="form-group">
+                        <input type="text" placeholder="Enter your location" required>
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option value="">All Categories</option>
+                            <option value="pizza">Pizza</option>
+                            <option value="burger">Burger</option>
+                            <option value="sushi">Sushi</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="button button-primary search-button">Find Food</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="categories" class="section">
+            <div class="container">
+                <h2 class="section-title">What's on your mind?</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=150&q=80" alt="Pizza" class="category-img">
+                        <h3>Pizza</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=150&q=80" alt="Burgers" class="category-img">
+                        <h3>Burgers</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=150&q=80" alt="Sushi" class="category-img">
+                        <h3>Sushi</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://i.pinimg.com/736x/51/9e/c7/519ec7ce98de4d34612ac09a01a3036c.jpg" alt="Indian" class="category-img">
+                        <h3>Indian</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=150&q=80" alt="Chinese" class="category-img">
+                        <h3>Chinese</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://i.pinimg.com/1200x/7e/b6/15/7eb6156b9c4f908bc15e9e618203bd88.jpg" alt="Desserts" class="category-img">
+                        <h3>Desserts</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="restaurants" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Top Restaurants</h2>
+                <div class="restaurant-grid">
+                        <article class="restaurant-card">
+                            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=500"
+                                alt="Pizza" class="card-img">
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <h3>Pizza Palace</h3>
+                                    <span class="rating"> 4.8</span>
+                                </div>
+                                <p class="cuisine-type">Pizza, Italian</p>
+                            </div>
+                        </article>
+
+                        <article class="restaurant-card">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500"
+                                alt="Burger" class="card-img">
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <h3>Burger Hub</h3>
+                                    <span class="rating"> 4.6</span>
+                                </div>
+                                <p class="cuisine-type">Burgers, Fast Food</p>
+                            </div>
+                        </article>
+
+                        <article class="restaurant-card">
+                            <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=500"
+                                alt="Sushi" class="card-img">
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <h3>Sushi World</h3>
+                                    <span class="rating"> 4.7</span>
+                                </div>
+                                <p class="cuisine-type">Sushi, Japanese</p>
+                            </div>
+                        </article>
+
+                        <article class="restaurant-card">
+                            <img src="https://images.unsplash.com/photo-1585937421612-70a008356f36?auto=format&fit=crop&w=500"
+                                alt="Indian Food" class="card-img">
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <h3>Spice Route</h3>
+                                    <span class="rating"> 4.5</span>
+                                </div>
+                                <p class="cuisine-type">Indian, Curry</p>
+                            </div>
+                        </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="offers" class="section">
+            <div class="container">
+                <h2 class="section-title">Special Offers</h2>
+                <div class="offers-flex">
+                    <div class="offer-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/726/726476.png" alt="Discount" class="offer-img">
+                        <div>
+                            <h3>Get 30% OFF</h3>
+                            <p>On your first order!</p>
+                        </div>
+                    </div>
+                    <div class="offer-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2972/2972185.png" alt="Delivery" class="offer-img">
+                        <div>
+                            <h3>Free Delivery</h3>
+                            <p>On orders above $20</p>
+                        </div>
+                    </div>
+                    <div class="offer-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Burger" class="offer-img">
+                        <div>
+                            <h3>Buy 1 Get 1</h3>
+                            <p>Free on Burgers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Customer Reviews</h2>
+                <div class="testimonials-grid">
+                    <div class="review-card">
+                        <img src="https://i.pinimg.com/1200x/01/c4/3b/01c43bbb39cf74d24c9190d4832a080c.jpg" alt="User" class="user-img">
+                        <div class="stars">5/5</div>
+                        <p>"YumFood makes ordering so easy. The delivery is always on time and hot."</p>
+                        <h4>ROHIT SHARMA</h4>
+                    </div>
+                    <div class="review-card">
+                        <img src="https://i.pinimg.com/736x/6d/23/93/6d2393edc2d1042167f8f2c43b59816b.jpg" alt="User" class="user-img">
+                        <div class="stars">4/5</div>
+                        <p>"Great selection of restaurants and amazing offers. Highly recommend!"</p>
+                        <h4>SANJAY ROY</h4>
+                    </div>
+                    <div class="review-card">
+                        <img src="https://i.pinimg.com/1200x/d7/ba/7a/d7ba7ab9c583a0fa5e78e2035a2a2587.jpg" alt="User" class="user-img">
+                        <div class="stars">5/5</div>
+                        <p>"The app is super user-friendly and the support is fantastic. Love it!"</p>
+                        <h4>RAJ KAPOOR</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>YumFood<span>.</span></h2>
+                <p>Delivering happiness to your doorstep.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="#">Partner with us</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 YumFood. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
